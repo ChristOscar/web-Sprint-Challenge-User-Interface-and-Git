@@ -51,7 +51,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 html, body {
@@ -95,10 +95,7 @@ nav{
     margin: 0 auto;
 }
 
-.container2 {
-    width: 800px;
-    margin: 0 auto;
-}
+
 .image-container-top{
     margin: 2% 0;
 }
@@ -206,4 +203,45 @@ footer nav a {
 }
 .box9{
     background-color:dodgerblue;
+}
+
+/* About Page */
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+}
+.about-content .text-container {
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-top: 1px dashed black;
+}
+.strategy{
+    text-align: center;
+}
+.about-element{
+    width: 45%;
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+.about-element p{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.about-element h2{
+    margin-bottom: 5px;
+    width: 100%;
+}
+.about-element img{
+    width: 100%;
+}
+.bottom-content{
+    padding: 15px;
 }
